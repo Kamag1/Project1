@@ -3,20 +3,24 @@
     margin: 0;
     padding: 0;
 }
-
+html {
+   font-size: 0.7em;
+   font-family: "Comic Relief", system-ui;
+}
 
 body {
     background-color: black;
+    font-size: 18px;
 }
  header{
     background-color: beige;
     text-align: center;
-    padding: 40px 0;
+    padding: 40px;
  }
 
  footer {
     background-color: beige;
-    padding: 20px 50px;
+    padding: 20px 2rem;
 
  }
 
@@ -26,8 +30,21 @@ body {
 
  #about {
     background-color: grey;
+    text-align: center;
+    padding: 2rem;
  }
 
  #articles {
-    background-color: grey;
+    background-color: goldenrod;
+    padding: 2rem;
+ }
+
+ p {
+   text-align: justify;
+   font-size: 1.5rem;
+   line-height: 2rem;
+ }
+
+ h1 {
+   font-size: 2rem;
  }
